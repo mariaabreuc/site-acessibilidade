@@ -106,11 +106,6 @@ h2 {
 
 }
 
-.fundo-galeria {
-    background: url('img/Paris-removebg-preview\ \(1\).png') bottom right no-repeat;
-    background-size: 180px 180px;
-}
-
 #contato {
     background-image: url('img/fotofundo.jpg');
     background-size: cover;
