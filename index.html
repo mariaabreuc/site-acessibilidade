@@ -35,6 +35,8 @@
             </div>
             <div id="acessibilidade" class="menu-acessibilidade">
                 <button id="botao-acessibilidade" class="btn btn-primary fw-bold rotacao-botao" aria-expanded="false">acessibilidade</button>
+                const botaoSelecionado = botaoDeAcessibilidade.getAttribute('aria-expanded') === 'true';
+botaoDeAcessibilidade.setAttribute('aria-expanded', !botaoSelecionado)
             </div>
         </div>
     </header>
